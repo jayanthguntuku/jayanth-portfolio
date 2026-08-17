@@ -1,0 +1,158 @@
+export const profile = {
+  name: "Jayanth Guntuku",
+  title: "Full-Stack Software Engineer",
+  subtitle: "4+ Years of Experience | Open to Opportunities in India",
+  location: "Texas, USA",
+  email: "guntukujayanth35@gmail.com",
+  github: "jayanthguntuku",
+  githubUrl: "https://github.com/jayanthguntuku",
+  linkedin: "Jayanth Guntuku",
+  linkedinUrl: "https://www.linkedin.com/in/jayanthguntuku",
+};
+
+export const experience = [
+  {
+    company: "Synapse ITS",
+    location: "USA",
+    role: "Software Engineer",
+    period: "Dec 2024 - Present",
+    stack: [
+      "React",
+      "Golang",
+      "JavaScript",
+      "REST APIs",
+      "WebSocket",
+      "MySQL",
+      "Docker",
+      "GCP",
+      "AWS",
+    ],
+    highlights: [
+      "Engineered 5+ full-stack features end-to-end improving page load performance by 40%",
+      "Architected and maintained 30+ REST APIs in Go reducing integration issues by 30%",
+      "Built Go-based gateway service bridging cloud infrastructure and 1000+ edge devices across 100+ agencies",
+      "Rolled out RBAC across the platform reducing support tickets by 20%",
+    ],
+  },
+  {
+    company: "Syracuse University",
+    location: "USA",
+    role: "Software Intern + Graduate Teaching Assistant",
+    period: "Aug 2023 - Nov 2024",
+    stack: [
+      "Java",
+      "Spring Boot",
+      "React",
+      "MySQL",
+      "Google Maps API",
+      "Kafka",
+      "Docker",
+      "Kubernetes",
+      "AWS",
+    ],
+    highlights: [
+      "Built real-time campus shuttle tracking app serving 1000+ daily users",
+      "Deployed predictive model cutting average wait times by 30% and increasing shuttle usage by 20%",
+      "Architected system with Kafka and WebSocket achieving 99% uptime during peak hours",
+    ],
+  },
+  {
+    company: "Infosys",
+    location: "India",
+    role: "Systems Engineer",
+    period: "Aug 2020 - May 2022",
+    stack: [
+      "Java",
+      "Spring Boot",
+      "React",
+      "REST APIs",
+      "SQL Server",
+      "MySQL",
+      "AWS",
+    ],
+    highlights: [
+      "Delivered enterprise full-stack applications increasing user engagement by 25%",
+      "Maintained 50+ REST APIs with 95% test coverage cutting production bugs by 30%",
+      "Optimized SQL Server and MySQL schemas cutting query time by 15-20%",
+    ],
+  },
+];
+
+export const projects = [
+  {
+    name: "Online Examination Portal",
+    description:
+      "End-to-end full-stack exam platform with RBAC, adaptive difficulty, and automated grading. Reduced admin time by 50% and improved average grades by 10%.",
+    stack: ["React", "Java", "Spring Boot", "Apache Kafka", "MySQL", "Docker"],
+    githubUrl: null,
+  },
+  {
+    name: "Campus Shuttle Tracker",
+    description:
+      "Real-time campus shuttle tracking app with live locations and ETAs serving 1000+ daily users. Achieved 99% uptime during peak hours.",
+    stack: ["React", "Java", "Spring Boot", "Google Maps API", "WebSocket", "Kafka", "AWS"],
+    githubUrl: null,
+  },
+  {
+    name: "Image Super Resolution CNN",
+    description:
+      "Deep CNN with residual learning achieving 30.60 dB PSNR and 0.8961 SSIM, surpassing the 30 dB industry threshold. Trained on 500 BSD images across 300 epochs.",
+    stack: ["PyTorch", "Python", "NumPy", "Google Colab", "CUDA"],
+    githubUrl: "https://github.com/jayanthguntuku/image-super-resolution",
+  },
+  {
+    name: "IPL Match Predictor",
+    description:
+      "ML model predicting IPL match winners with backtesting across 2008-2026 data. Achieved 53.52% accuracy on 2025 season backtest.",
+    stack: ["Python", "scikit-learn", "Pandas", "Random Forest", "Matplotlib"],
+    githubUrl: "https://github.com/jayanthguntuku/ipl-match-predictor",
+  },
+];
+
+export const skills = {
+  Frontend: [
+    "React.js",
+    "TypeScript",
+    "JavaScript",
+    "HTML5",
+    "CSS3",
+    "Bootstrap",
+    "State Management",
+  ],
+  Backend: [
+    "Node.js",
+    "Golang",
+    "Java",
+    "Spring Boot",
+    "REST APIs",
+    "Microservices",
+    "WebSocket",
+    ".NET Core",
+  ],
+  "Cloud & DevOps": [
+    "AWS (EC2, S3, Lambda, RDS)",
+    "GCP",
+    "Docker",
+    "Kubernetes",
+    "CI/CD",
+    "Git",
+  ],
+  "AI/ML": ["PyTorch", "CNN", "Deep Learning", "Python", "NumPy", "scikit-learn"],
+  Testing: ["Jest", "React Testing Library", "JUnit", "Jasmine"],
+  Databases: ["MySQL", "SQL Server", "MongoDB", "DynamoDB"],
+};
+
+export const education = [
+  {
+    degree: "M.S. in Computer and Information Science",
+    school: "Syracuse University, USA",
+    period: "Aug 2022 - May 2024",
+    gpa: "3.9 / 4.0",
+  },
+  {
+    degree: "B.Tech in Computer Science and Engineering",
+    school: "Gayatri Vidya Parishad College of Engineering, Vizag, India",
+    period: "Aug 2016 - Aug 2020",
+    gpa: "8.43 / 10.0",
+  },
+];

@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Keeps anchor-jumped sections from being tucked under the fixed navbar. */
+section[id] {
+  scroll-margin-top: 4rem;
+}
