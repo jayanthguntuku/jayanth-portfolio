@@ -85,6 +85,17 @@ export const projects = [
       "End-to-end full-stack exam platform with RBAC, adaptive difficulty, and automated grading. Reduced admin time by 50% and improved average grades by 10%.",
     stack: ["React", "Java", "Spring Boot", "Apache Kafka", "MySQL", "Docker"],
     githubUrl: null,
+    details: {
+      problem:
+        "Universities needed a scalable exam platform that could handle concurrent students, prevent cheating, and automate grading.",
+      approach:
+        "Built end-to-end with a React frontend and a Java Spring Boot backend. Implemented RBAC so admins, teachers, and students each have different access levels.",
+      challenges:
+        "Handling concurrent exam submissions without data loss. Solved using Apache Kafka for async processing and load balancing.",
+      results:
+        "Reduced admin time by 50%, improved average grades by 10%, cut question disputes by 20%.",
+      tech: ["React", "Java", "Spring Boot", "Apache Kafka", "MySQL", "Docker"],
+    },
   },
   {
     name: "Campus Shuttle Tracker",
@@ -92,6 +103,17 @@ export const projects = [
       "Real-time campus shuttle tracking app with live locations and ETAs serving 1000+ daily users. Achieved 99% uptime during peak hours.",
     stack: ["React", "Java", "Spring Boot", "Google Maps API", "WebSocket", "Kafka", "AWS"],
     githubUrl: null,
+    details: {
+      problem:
+        "1000+ students had no visibility into shuttle locations or arrival times, causing frustration and missed shuttles.",
+      approach:
+        "Built a real-time tracking app integrating the Google Maps API for live locations. Added a predictive model on historical data to forecast ETAs. Used WebSocket for real-time data delivery and Kafka for event-driven processing.",
+      challenges:
+        "Maintaining real-time accuracy at scale during peak hours. Solved with WebSocket connections and Kafka event streaming, achieving 99% uptime.",
+      results:
+        "Served 1000+ daily users, cut average wait times by 30%, increased shuttle usage by 20%.",
+      tech: ["React", "Java", "Spring Boot", "Google Maps API", "WebSocket", "Kafka", "AWS"],
+    },
   },
   {
     name: "Image Super Resolution CNN",
@@ -99,6 +121,17 @@ export const projects = [
       "Deep CNN with residual learning achieving 30.60 dB PSNR and 0.8961 SSIM, surpassing the 30 dB industry threshold. Trained on 500 BSD images across 300 epochs.",
     stack: ["PyTorch", "Python", "NumPy", "Google Colab", "CUDA"],
     githubUrl: "https://github.com/jayanthguntuku/image-super-resolution",
+    details: {
+      problem:
+        "Low resolution images lose critical detail when upscaled using traditional methods, which is a major limitation in computer vision applications.",
+      approach:
+        "Engineered a 6-layer deep CNN with residual learning in PyTorch. Used L1Loss instead of MSELoss for sharper results and StepLR scheduling to stabilize training. Built a custom degradation pipeline to generate 128x128 training pairs.",
+      challenges:
+        "Training instability and slow convergence over 300 epochs on limited GPU. Solved by adding residual connections and switching loss functions, which reduced validation loss by 78%.",
+      results:
+        "Achieved 30.60 dB PSNR and 0.8961 SSIM on 200 test images, surpassing the 30 dB industry threshold. Improved PSNR by +1.67 dB over baseline.",
+      tech: ["PyTorch", "Python", "NumPy", "Google Colab T4 GPU", "scikit-image"],
+    },
   },
   {
     name: "IPL Match Predictor",
@@ -106,6 +139,17 @@ export const projects = [
       "ML model predicting IPL match winners with backtesting across 2008-2026 data. Achieved 53.52% accuracy on 2025 season backtest.",
     stack: ["Python", "scikit-learn", "Pandas", "Random Forest", "Matplotlib"],
     githubUrl: "https://github.com/jayanthguntuku/ipl-match-predictor",
+    details: {
+      problem:
+        "Predicting cricket match outcomes is complex due to constantly changing team compositions, venues, and season form.",
+      approach:
+        "Merged 3 datasets covering 2008-2026. Engineered features including home ground advantage, all-time win rate, recent 2-season form, toss advantage, and playoff flags. Used Random Forest for its robustness with tabular sports data.",
+      challenges:
+        "Dataset inconsistencies across different sources and years. Verified and cleaned data carefully before training to avoid model errors.",
+      results:
+        "Achieved 53.52% accuracy on 2025 backtest and correctly predicted RCB winning both the 2025 and 2026 IPL Finals.",
+      tech: ["Python", "scikit-learn", "Pandas", "Random Forest", "Matplotlib"],
+    },
   },
 ];
 

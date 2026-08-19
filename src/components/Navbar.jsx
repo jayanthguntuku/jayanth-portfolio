@@ -57,8 +57,8 @@ function Navbar() {
 
   return (
     <nav
-      className={`fixed inset-x-0 top-0 z-40 bg-white transition-shadow duration-200 ${
-        isScrolled ? "shadow-md" : "border-b border-slate-100"
+      className={`fixed inset-x-0 top-0 z-40 bg-hero border-b border-slate-200/70 transition-shadow duration-200 ${
+        isScrolled ? "shadow-md" : ""
       }`}
     >
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-6">
@@ -126,7 +126,7 @@ function Navbar() {
       </div>
 
       {isMenuOpen && (
-        <ul className="border-t border-slate-100 bg-white px-6 py-4 md:hidden">
+        <ul className="border-t border-slate-200/70 bg-hero px-6 py-4 md:hidden">
           {NAV_LINKS.map((link) => (
             <li key={link.id}>
               <button

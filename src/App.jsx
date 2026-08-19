@@ -11,7 +11,7 @@ import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
-    <div className="bg-white">
+    <div className="bg-hero">
       <Navbar />
       <Hero />
       <About />

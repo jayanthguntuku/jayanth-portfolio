@@ -1,14 +1,17 @@
+import { useState } from "react";
 import { projects } from "../data/resume";
 import { useInView } from "../hooks/useInView";
+import ProjectModal from "./ProjectModal";
 
 function Projects() {
   const [ref, isInView] = useInView();
+  const [selectedProject, setSelectedProject] = useState(null);
 
   return (
     <section
       id="projects"
       ref={ref}
-      className={`py-16 sm:py-20 px-6 bg-slate-50 transition-all duration-700 ease-out ${
+      className={`py-16 sm:py-20 px-6 bg-alt transition-all duration-700 ease-out ${
         isInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
       }`}
     >
@@ -42,20 +45,32 @@ function Projects() {
                 ))}
               </div>
 
-              {project.githubUrl && (
-                <a
-                  href={project.githubUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="mt-5 inline-flex items-center justify-center w-full sm:w-auto self-start px-4 py-2 rounded-md bg-slate-900 text-white text-sm font-medium transition-all hover:bg-slate-700 hover:-translate-y-0.5"
+              <div className="mt-5 flex flex-wrap gap-3">
+                <button
+                  type="button"
+                  onClick={() => setSelectedProject(project)}
+                  className="inline-flex items-center justify-center rounded-md border border-slate-300 px-4 py-2 text-sm font-medium text-slate-700 transition-all hover:-translate-y-0.5 hover:border-slate-400 hover:bg-slate-50"
                 >
-                  View on GitHub
-                </a>
-              )}
+                  View Details
+                </button>
+
+                {project.githubUrl && (
+                  <a
+                    href={project.githubUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center justify-center rounded-md bg-slate-900 px-4 py-2 text-sm font-medium text-white transition-all hover:-translate-y-0.5 hover:bg-slate-700"
+                  >
+                    View on GitHub
+                  </a>
+                )}
+              </div>
             </div>
           ))}
         </div>
       </div>
+
+      <ProjectModal project={selectedProject} onClose={() => setSelectedProject(null)} />
     </section>
   );
 }

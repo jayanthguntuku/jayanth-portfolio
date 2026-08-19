@@ -73,7 +73,7 @@ function Contact() {
       ref={ref}
       // Extra bottom padding keeps the floating chat bubble / scroll-to-top button
       // from covering the footer once the page is scrolled all the way down.
-      className={`pt-16 sm:pt-20 pb-32 sm:pb-24 px-6 bg-slate-50 transition-all duration-700 ease-out ${
+      className={`pt-16 sm:pt-20 pb-32 sm:pb-24 px-6 bg-alt transition-all duration-700 ease-out ${
         isInView ? "opacity-100 translate-y-0" : "opacity-0 translate-y-8"
       }`}
     >
