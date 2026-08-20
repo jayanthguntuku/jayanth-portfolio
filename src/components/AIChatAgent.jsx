@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from "react";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
 
-const CHAT_API_URL = "http://localhost:3001/api/chat";
+const CHAT_API_URL = "/api/chat";
 
 const markdownComponents = {
   p: ({ children }) => <p className="mb-2 last:mb-0 leading-relaxed">{children}</p>,
