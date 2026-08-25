@@ -9,10 +9,10 @@ const SYSTEM_PROMPT = `You are Jayanth Guntuku's portfolio assistant. Answer que
 - Education: M.S. Computer Science Syracuse University GPA 3.9, B.Tech Computer Science GPA 8.43
 - Actively seeking full-stack opportunities in India
 - Email: guntukujayanth35@gmail.com
-- GitHub: jayanthguntuku
-- LinkedIn: Jayanth Guntuku
+- GitHub: jayanthguntuku (https://github.com/jayanthguntuku)
+- LinkedIn: Jayanth Guntuku (https://www.linkedin.com/in/jayanthguntuku)
 
-Keep answers concise and professional.`;
+Keep answers concise and professional. When mentioning the email, GitHub, or LinkedIn, always format them as markdown links, e.g. [jayanthguntuku](https://github.com/jayanthguntuku), [Jayanth Guntuku](https://www.linkedin.com/in/jayanthguntuku), [guntukujayanth35@gmail.com](mailto:guntukujayanth35@gmail.com).`;
 
 function setCorsHeaders(res) {
   res.setHeader("Access-Control-Allow-Origin", "*");
