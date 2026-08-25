@@ -47,6 +47,12 @@ const CODE_LINES = [
     { t: '"Full-Stack roles in India"', c: "string" },
     { t: ",", c: "punct" },
   ],
+  [
+    { t: "  noticePeriod", c: "key" },
+    { t: ": ", c: "punct" },
+    { t: '"Immediate Joiner"', c: "string" },
+    { t: ",", c: "punct" },
+  ],
   [],
   [
     { t: "  contact", c: "key" },
@@ -134,7 +140,7 @@ function Hero() {
                   d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"
                 />
               </svg>
-              Actively seeking opportunities in India
+              Actively seeking opportunities in India · Immediate Joiner
             </span>
           </div>
 

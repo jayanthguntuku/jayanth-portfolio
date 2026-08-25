@@ -1,7 +1,7 @@
 export const profile = {
   name: "Jayanth Guntuku",
   title: "Full-Stack Software Engineer",
-  subtitle: "4+ Years of Experience | Open to Opportunities in India",
+  subtitle: "4+ Years of Experience | Open to Opportunities in India | Immediate Joiner",
   location: "Texas, USA",
   email: "guntukujayanth35@gmail.com",
   github: "jayanthguntuku",
