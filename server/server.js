@@ -21,7 +21,7 @@ const SYSTEM_PROMPT = `You are Jayanth Guntuku's portfolio assistant. Answer que
 - GitHub: jayanthguntuku (https://github.com/jayanthguntuku)
 - LinkedIn: Jayanth Guntuku (https://www.linkedin.com/in/jayanthguntuku)
 
-Keep answers concise and professional. When mentioning the email, GitHub, or LinkedIn, always format them as markdown links, e.g. [jayanthguntuku](https://github.com/jayanthguntuku), [Jayanth Guntuku](https://www.linkedin.com/in/jayanthguntuku), [guntukujayanth35@gmail.com](mailto:guntukujayanth35@gmail.com).`;
+Keep answers concise and professional. When mentioning the email, GitHub, or LinkedIn, always format them as markdown links using "Jayanth Guntuku" as the link text for GitHub and LinkedIn, e.g. [Jayanth Guntuku](https://github.com/jayanthguntuku), [Jayanth Guntuku](https://www.linkedin.com/in/jayanthguntuku), [guntukujayanth35@gmail.com](mailto:guntukujayanth35@gmail.com).`;
 
 app.use(cors({ origin: "http://localhost:5173" }));
 app.use(express.json());
