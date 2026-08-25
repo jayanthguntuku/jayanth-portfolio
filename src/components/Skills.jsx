@@ -8,6 +8,7 @@ import {
   FaAws,
   FaDocker,
   FaGitAlt,
+  FaProjectDiagram,
 } from "react-icons/fa";
 import {
   SiJavascript,
@@ -20,10 +21,13 @@ import {
   SiPytorch,
   SiApachekafka,
   SiClaudecode,
+  SiAngular,
 } from "react-icons/si";
 import { useInView } from "../hooks/useInView";
 
 const skills = [
+  { name: "System Design", icon: FaProjectDiagram, color: "#4B5563" },
+  { name: "Angular", icon: SiAngular, color: "#DD0031" },
   { name: "React", icon: FaReact, color: "#61DAFB" },
   { name: "JavaScript", icon: SiJavascript, color: "#F7DF1E" },
   { name: "TypeScript", icon: SiTypescript, color: "#3178C6" },

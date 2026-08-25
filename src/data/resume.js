@@ -155,6 +155,7 @@ export const projects = [
 
 export const skills = {
   Frontend: [
+    "Angular",
     "React.js",
     "TypeScript",
     "JavaScript",
@@ -173,6 +174,7 @@ export const skills = {
     "WebSocket",
     ".NET Core",
   ],
+  "System Design": ["Distributed Systems", "Scalability", "API Design", "Microservices Architecture"],
   "Cloud & DevOps": [
     "AWS (EC2, S3, Lambda, RDS)",
     "GCP",
