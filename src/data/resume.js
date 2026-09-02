@@ -17,12 +17,13 @@ export const experience = [
     role: "Software Engineer",
     period: "Dec 2024 - Present",
     stack: [
-      "React",
+      "Angular",
       "Golang",
       "JavaScript",
       "REST APIs",
       "WebSocket",
       "MySQL",
+      "Redis",
       "Docker",
       "GCP",
       "AWS",
@@ -42,7 +43,7 @@ export const experience = [
     stack: [
       "Java",
       "Spring Boot",
-      "React",
+      "Angular",
       "MySQL",
       "Google Maps API",
       "Kafka",
@@ -60,11 +61,11 @@ export const experience = [
     company: "Infosys",
     location: "India",
     role: "Systems Engineer",
-    period: "Aug 2020 - May 2022",
+    period: "Feb 2020 - Mar 2022",
     stack: [
       "Java",
       "Spring Boot",
-      "React",
+      "Angular",
       "REST APIs",
       "SQL Server",
       "MySQL",
@@ -83,25 +84,25 @@ export const projects = [
     name: "Online Examination Portal",
     description:
       "End-to-end full-stack exam platform with RBAC, adaptive difficulty, and automated grading. Reduced admin time by 50% and improved average grades by 10%.",
-    stack: ["React", "Java", "Spring Boot", "Apache Kafka", "MySQL", "Docker"],
+    stack: ["Angular", "Java", "Spring Boot", "Apache Kafka", "MySQL", "Docker"],
     githubUrl: null,
     details: {
       problem:
         "Universities needed a scalable exam platform that could handle concurrent students, prevent cheating, and automate grading.",
       approach:
-        "Built end-to-end with a React frontend and a Java Spring Boot backend. Implemented RBAC so admins, teachers, and students each have different access levels.",
+        "Built end-to-end with an Angular frontend and a Java Spring Boot backend. Implemented RBAC so admins, teachers, and students each have different access levels.",
       challenges:
         "Handling concurrent exam submissions without data loss. Solved using Apache Kafka for async processing and load balancing.",
       results:
         "Reduced admin time by 50%, improved average grades by 10%, cut question disputes by 20%.",
-      tech: ["React", "Java", "Spring Boot", "Apache Kafka", "MySQL", "Docker"],
+      tech: ["Angular", "Java", "Spring Boot", "Apache Kafka", "MySQL", "Docker"],
     },
   },
   {
     name: "Campus Shuttle Tracker",
     description:
       "Real-time campus shuttle tracking app with live locations and ETAs serving 1000+ daily users. Achieved 99% uptime during peak hours.",
-    stack: ["React", "Java", "Spring Boot", "Google Maps API", "WebSocket", "Kafka", "AWS"],
+    stack: ["Angular", "Java", "Spring Boot", "Google Maps API", "WebSocket", "Kafka", "AWS"],
     githubUrl: null,
     details: {
       problem:
@@ -112,7 +113,7 @@ export const projects = [
         "Maintaining real-time accuracy at scale during peak hours. Solved with WebSocket connections and Kafka event streaming, achieving 99% uptime.",
       results:
         "Served 1000+ daily users, cut average wait times by 30%, increased shuttle usage by 20%.",
-      tech: ["React", "Java", "Spring Boot", "Google Maps API", "WebSocket", "Kafka", "AWS"],
+      tech: ["Angular", "Java", "Spring Boot", "Google Maps API", "WebSocket", "Kafka", "AWS"],
     },
   },
   {
